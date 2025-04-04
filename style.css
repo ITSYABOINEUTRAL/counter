@@ -1,0 +1,110 @@
+body {
+    padding: 40px;
+    background-image: url("ChatGPT\ Image\ Apr\ 2\,\ 2025\,\ 05_01_52\ PM.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid blue;
+    border-radius: 18px;
+    padding: 10px;
+}
+#set-a-num-div{
+    width: 400px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 18px;
+    padding: 10px;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #1a1eda
+}
+button{
+    background-color: blue;
+    color: black;
+    font-size: 16px;
+    border-radius: 18px;
+}
+#increase-number-by-1-div{
+    width: 300px;
+    height: 70px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 18px;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 107px;
+    left: 500px;
+}
+#increase-and-decrease-num-div{
+    width: 325px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 18px;
+    border-radius: 18px;
+    padding: 10px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 235px;
+    left: 900px;
+}
+#increase-num-div{
+    width: 280px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: row;
+    border-radius: 18px;
+    padding: 10px;
+}
+#decrease-num-div{
+    width: 280px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: row;
+    border-radius: 18px;
+    padding: 10px;
+}
+#check-status-div{
+    width: 250px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 18px;
+    padding: 10px;
+    position: relative;
+    bottom: 107px;
+}
+#reset-num-div{
+    width: 150px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius: 18px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 175px;
+    left: 500px;
+}
+#setNum{
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 18px;
+    padding: 10px;
+    color: wheat;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
