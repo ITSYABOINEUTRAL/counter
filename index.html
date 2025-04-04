@@ -15,7 +15,7 @@
     <div id="set-a-num-div">
         <p>Set A Number</p>
         <input type="number" name ="" placeholder="Enter Number" id="number-to-set">
-        <button >SET NUMBER</button>
+        <button onclick="setNum(parseInt(document.getElementById('number-to-set').value)); updateDisplay()">SET NUMBER</button>
     </div>
     <div id="increase-number-by-1-div">
         <button onclick="increaseNumberBy1(); updateDisplay()">INCREASE NUMBER BY 1</button>
@@ -24,12 +24,12 @@
     </div>
     <div id="increase-and-decrease-num-div">
         <div id="increase-num-div">
-            <input type="number" name="" placeholder="ENTER NUMBER">
-            <button>INCREASE</button>
+            <input type="number" name="" placeholder="ENTER NUMBER" id="increase-input">
+            <button onclick="increaseNum(parseInt(document.getElementById('increase-input').value)); updateDisplay()">INCREASE</button>
         </div>
        <div id="decrease-num-div">
-            <input type="number" name="" placeholder="ENTER NUMBE">
-            <button>DECREASE</button>
+            <input type="number" name="" placeholder="ENTER NUMBER" id="decrease-input">
+            <button onclick="decreaseNum(parseInt(document.getElementById('decrease-input').value)); updateDisplay()" >DECREASE</button>
         </div>
     </div>
     <div id="check-status-div">
